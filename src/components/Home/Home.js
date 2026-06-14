@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/home-main.svg";
+import homeLogo from "../../Assets/undraw_programmer_raqr.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
@@ -30,7 +30,7 @@ function Home() {
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> SOUMYAJIT BEHERA</strong>
+                <strong className="main-name"> ANJALI YADAV</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
@@ -42,7 +42,7 @@ function Home() {
               <img
                 src={homeLogo}
                 alt="home pic"
-                className="img-fluid"
+                className="img-fluid home-img"
                 style={{ maxHeight: "450px" }}
               />
             </Col>
@@ -54,14 +54,16 @@ function Home() {
       <Container>
         <Row style={{ paddingTop: "50px", paddingBottom: "80px" }}>
           <Col md={12} className="home-about-social">
-            <h1>Find Me On</h1>
+            <h1>
+  Let's <span className="purple">Connect</span>
+</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
-            </p>
+  Open to internships, collaborations, and exciting opportunities.
+</p>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/anjaliitgit"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -81,7 +83,7 @@ function Home() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/anjali-yadav-b0a473282/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
