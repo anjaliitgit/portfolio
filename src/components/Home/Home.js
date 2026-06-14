@@ -7,8 +7,7 @@ import Type from "./Type";
 import {
   AiFillGithub,
   AiOutlineTwitter,
-  AiFillInstagram,
-  AiFillLinkedin
+  AiFillInstagram
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
